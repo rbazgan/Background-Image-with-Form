@@ -1,0 +1,71 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.background-image-section {
+    background-image: url('./beachimage.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position:relative;
+    height:110vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:antiquewhite;
+    text-align:center;
+}
+
+.form-container-trip {
+    background-color: rgba(0,0,0,0.6);
+    padding:20px;
+    border-radius: 8px;
+    max-width:450px;
+    width:80%;
+    position:absolute;
+}
+
+.form-group-trip {
+    margin-bottom: 14px;
+}
+
+label {
+    display:block;
+    margin-bottom:5px;
+    color:white;
+    font-weight:bold;
+}
+
+input[type="text"], 
+input[type="email"],
+textarea {
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius: 5px;
+    background:lightblue; 
+}
+
+textarea {
+    height:200px;
+}
+
+button {
+    background-color:orange;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color:red;
+    opacity:1;
+}
